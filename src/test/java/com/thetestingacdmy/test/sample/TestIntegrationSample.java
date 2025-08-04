@@ -27,7 +27,7 @@ public class TestIntegrationSample {
     }
 
     @Test(groups = "qa", priority = 3)
-    @Owner("Ajay Kumar")
+    @Owner("Ajay")
     @Description("TC#INT1 - Step 3. Verify Updated Booking by ID")
     public void testUpdateBookingByID(){
         Assert.assertTrue(true);
